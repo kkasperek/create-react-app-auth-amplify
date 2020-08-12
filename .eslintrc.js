@@ -6,7 +6,7 @@ module.exports = {
   },
   extends: [
     'plugin:react/recommended',
-    'airbnb',
+    'airbnb'
   ],
   globals: {
     Atomics: 'readonly',
@@ -23,5 +23,9 @@ module.exports = {
     'react',
   ],
   rules: {
+    'comma-dangle': 0,
+    'linebreak-style': 0,
+    'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx'] }],
+    'react/prefer-stateless-function': 0
   },
 };
