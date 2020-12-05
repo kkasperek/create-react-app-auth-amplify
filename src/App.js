@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
-import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
-import logo from './assets/logo.svg';
+import React, { Component } from 'react'
+import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
+import logo from './assets/logo.svg'
 
 class App extends Component {
   constructor(props) {
-    super(props);
-    this.state = {};
+    super(props)
+    this.state = {}
   }
 
   render() {
@@ -17,8 +17,8 @@ class App extends Component {
         </header>
         <AmplifySignOut />
       </div>
-    );
+    )
   }
 }
 
-export default withAuthenticator(App);
+export default withAuthenticator(App)
