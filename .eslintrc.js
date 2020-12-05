@@ -26,6 +26,7 @@ module.exports = {
     'comma-dangle': 0,
     'linebreak-style': 0,
     'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx'] }],
-    'react/prefer-stateless-function': 0
+    'react/prefer-stateless-function': 0,
+    'semi': 0
   },
 };
